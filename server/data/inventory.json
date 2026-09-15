@@ -1,0 +1,13 @@
+[
+  {
+    "id": "inventory-product-001",
+    "artisanId": "artisan-001",
+    "type": "product",
+    "itemId": "product-001",
+    "itemName": "Bamboo Basket",
+    "quantity": 1,
+    "unit": "pieces",
+    "minimumStockLevel": 2,
+    "updatedAt": "2026-09-12T03:33:55.397Z"
+  }
+]

@@ -1,0 +1,40 @@
+const materials = [
+  {
+    id: "material-001",
+    artisanId: "artisan-001",
+    name: "Bamboo",
+    category: "Natural Material",
+    quantity: 25,
+    unit: "kg",
+    minimumStockLevel: 5,
+    estimatedCostPerUnit: 120,
+    supplier: "Local Bamboo Supplier",
+    location: "Tamil Nadu",
+  },
+  {
+    id: "material-002",
+    artisanId: "artisan-001",
+    name: "Cotton Thread",
+    category: "Thread",
+    quantity: 15,
+    unit: "rolls",
+    minimumStockLevel: 3,
+    estimatedCostPerUnit: 80,
+    supplier: "Local Textile Supplier",
+    location: "Tamil Nadu",
+  },
+  {
+    id: "material-003",
+    artisanId: "artisan-001",
+    name: "Natural Dye",
+    category: "Dye",
+    quantity: 8,
+    unit: "litres",
+    minimumStockLevel: 2,
+    estimatedCostPerUnit: 250,
+    supplier: "Traditional Dye Supplier",
+    location: "Tamil Nadu",
+  },
+];
+
+module.exports = materials;
