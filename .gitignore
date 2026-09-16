@@ -27,3 +27,17 @@ dist-ssr
 .env
 .env.*
 !.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# AI model weights
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.bin
